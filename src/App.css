@@ -157,12 +157,14 @@ button:focus-visible { outline: 3px solid var(--neon-cyan); outline-offset: 4px;
   font-weight: 800;
   background: linear-gradient(135deg, #ffffff 0%, #ffe0f0 45%, #ff80bf 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 0 35px rgba(255, 46, 147, 0.35));
 }
 .hero h1 span {
   background: linear-gradient(135deg, #ff2e93 0%, #ff77c6 40%, #00f5ff 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 0 25px rgba(255, 46, 147, 0.7));
 }
@@ -204,6 +206,7 @@ button:focus-visible { outline: 3px solid var(--neon-cyan); outline-offset: 4px;
   font-weight: 800;
   background: linear-gradient(135deg, #ff4da6 0%, #ff80bf 50%, #00f5ff 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 0 22px rgba(255, 77, 166, 0.6));
 }
@@ -333,6 +336,7 @@ button:focus-visible { outline: 3px solid var(--neon-cyan); outline-offset: 4px;
   font-weight: 800;
   background: linear-gradient(135deg, #ffffff 0%, #ff80bf 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 0 20px rgba(255, 46, 147, 0.5));
 }
@@ -658,6 +662,7 @@ button:focus-visible { outline: 3px solid var(--neon-cyan); outline-offset: 4px;
   letter-spacing: -.05em;
   background: linear-gradient(135deg, #ff4da6 0%, #ff80bf 50%, #00f5ff 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 0 22px rgba(255, 77, 166, 0.6));
 }
@@ -1052,6 +1057,7 @@ button:focus-visible { outline: 3px solid var(--neon-cyan); outline-offset: 4px;
   font-weight: 800;
   background: linear-gradient(135deg, #ff2e93 0%, #ff80bf 50%, #00f5ff 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 0 30px rgba(255, 46, 147, 0.75));
 }
