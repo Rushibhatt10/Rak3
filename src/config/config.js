@@ -54,7 +54,7 @@ const config = {
       glow: 'Dream Glow',
     },
   },
-  photos: ['Pic1.jpg.jpeg', 'Pic2.jpg.jpeg', 'Pic3.jpg.jpeg', 'Pic4.jpg.jpeg', 'Pic5.jpg.jpeg', 'Pic6.jpg.jpeg'].map((filename, index) => ({
+  photos: ['Pic51.jpg.jpeg', 'Pic52.jpg.jpeg', 'Pic53.jpg.jpeg', 'Pic54.jpg.jpeg', 'Pic55.jpg.jpeg', 'Pic56.jpg.jpeg'].map((filename, index) => ({
     src: assetUrl(`photos/${filename}`),
     alt: `Memory ${index + 1}`,
     caption: captions[index],

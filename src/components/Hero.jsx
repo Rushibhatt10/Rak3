@@ -3,7 +3,7 @@ function Hero({ started, onStart }) {
     <section className="hero">
       <div className="heroContent">
         <p className="tag">PERSONAL DIGITAL GIFT FROM Nishchay</p>
-        <h1>A little gift.<br /><span>Just for you, Rushali Didi ♡</span></h1>
+        <h1>A little gift.<br /><span>Just for you, Aarya ♡</span></h1>
         <p className="subtitle">Because one Rakhi (Sawant) wasn't enough.</p>
         <button className={`primary ${started ? 'isStarted' : ''}`} type="button" onClick={onStart}>
           {started ? "Lesssgooooooo ✨" : 'Lesssgooooooo ✨'}
